@@ -20,4 +20,3 @@ end
 def engage
   expect{ engage }.to output(/Captain's Log, star date /).to_stdout
 end
-end
