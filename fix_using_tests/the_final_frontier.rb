@@ -19,6 +19,6 @@ end
 
 def engage
   puts state_log(date)
-  puts crew
+  
 end
   
