@@ -18,5 +18,5 @@ def greet_crew (crew)
 end
 
 def engage
-  "Captain's Log, star date #{star_date}."
+  crew
 end
