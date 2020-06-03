@@ -18,5 +18,6 @@ def greet_crew (crew)
 end
 
 def engage
-  expect{ engage }.to output(/Captain's Log, star date /).to_stdout
+  puts state_log(date)
+  date = generate_star_date
 end
