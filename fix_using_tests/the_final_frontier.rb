@@ -18,5 +18,5 @@ def greet_crew (crew)
 end
 
 def engage
-  state_log + crew
+  puts 
 end
