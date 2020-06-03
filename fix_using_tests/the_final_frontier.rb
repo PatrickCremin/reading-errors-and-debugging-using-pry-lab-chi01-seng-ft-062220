@@ -22,5 +22,4 @@ def engage
   date = generate_star_date
   crew
 end
-end
   
