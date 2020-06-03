@@ -17,6 +17,7 @@ def greet_crew (crew)
   crew.each {|crew_member| "Hello #{crew_member}."}
 end
 
-def engage
+def engage do
   expect{ engage }.to output(/Captain's Log, star date /).to_stdout
+end
 end
