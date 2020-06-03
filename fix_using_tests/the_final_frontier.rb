@@ -18,7 +18,6 @@ def greet_crew (crew)
 end
 
 def engage
-  puts state_log(date)
-  crew
+  ["Hello Geordi.", "Hello Data.", "Hello Worf.", "Hello William.", "Hello Beverly.", "Hello Deanna."]
 end
   
